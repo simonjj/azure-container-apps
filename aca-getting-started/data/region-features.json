@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-31T08:48:10Z",
+  "generated_at": "2026-08-01T08:19:50Z",
   "data_source": "Azure Retail Prices API (https://prices.azure.com)",
   "note": "Availability is derived from published billing meters. Consumption, Dedicated and Dynamic Sessions reflect where the meters are offered; specific dedicated profile sizes are not distinguished. GPU SKUs are differentiated. Availability Zone support comes from a maintained static list.",
   "region_count": 58,
@@ -488,9 +488,9 @@
         "rt:sessionPools": true,
         "wp:Consumption": true,
         "wp:Dedicated": true,
-        "wp:Consumption-GPU-A100": false,
-        "wp:Consumption-GPU-T4": false,
-        "wp:Dedicated-GPU": false,
+        "wp:Consumption-GPU-A100": true,
+        "wp:Consumption-GPU-T4": true,
+        "wp:Dedicated-GPU": true,
         "az:AvailabilityZones": false
       }
     },
@@ -536,9 +536,9 @@
         "rt:sessionPools": true,
         "wp:Consumption": true,
         "wp:Dedicated": true,
-        "wp:Consumption-GPU-A100": false,
-        "wp:Consumption-GPU-T4": false,
-        "wp:Dedicated-GPU": false,
+        "wp:Consumption-GPU-A100": true,
+        "wp:Consumption-GPU-T4": true,
+        "wp:Dedicated-GPU": true,
         "az:AvailabilityZones": false
       }
     },
