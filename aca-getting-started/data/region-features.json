@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T07:39:06Z",
+  "generated_at": "2026-08-11T07:05:16Z",
   "data_source": "Azure Retail Prices API (https://prices.azure.com)",
   "note": "Availability is derived from published billing meters. Consumption, Dedicated and Dynamic Sessions reflect where the meters are offered; specific dedicated profile sizes are not distinguished. GPU SKUs are differentiated. Availability Zone support comes from a maintained static list.",
   "region_count": 58,
