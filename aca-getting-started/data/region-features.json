@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T12:48:10Z",
+  "generated_at": "2026-09-01T11:09:45Z",
   "data_source": "Azure Retail Prices API (https://prices.azure.com)",
   "note": "Availability is derived from published billing meters. Consumption, Dedicated and Dynamic Sessions reflect where the meters are offered; specific dedicated profile sizes are not distinguished. GPU SKUs are differentiated. Availability Zone support comes from a maintained static list.",
-  "region_count": 58,
+  "region_count": 59,
   "feature_count": 10,
   "features": [
     {
@@ -843,6 +843,22 @@
         "wp:Consumption-GPU-A100": true,
         "wp:Consumption-GPU-T4": true,
         "wp:Dedicated-GPU": true,
+        "az:AvailabilityZones": false
+      }
+    },
+    {
+      "slug": "taiwannorth",
+      "display_name": "Taiwan North",
+      "features": {
+        "rt:managedEnvironments": true,
+        "rt:containerApps": true,
+        "rt:jobs": true,
+        "rt:sessionPools": false,
+        "wp:Consumption": false,
+        "wp:Dedicated": false,
+        "wp:Consumption-GPU-A100": false,
+        "wp:Consumption-GPU-T4": false,
+        "wp:Dedicated-GPU": false,
         "az:AvailabilityZones": false
       }
     },
